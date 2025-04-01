@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel - Suryashis Ghosh</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">Suryashis Ghosh</a>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="travel.html" class="active">Travel</a></li>
+          <li><a href="awards.html">Awards</a></li>
+          <li><a href="random.html">Random</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Travel Section -->
+  <section class="travel-section" style="padding-top: 120px; padding-bottom: 60px;">
+    <div class="container">
+      <h2 class="section-title">Travel Adventures</h2>
+      
+      <p>I love trekking and exploring new places every year. Traveling brings me closer to nature, history, and adventure. Here are some of my recent journeys:</p>
+      
+      <div class="travel-grid">
+        <div class="travel-card">
+          <div class="travel-image">
+            <img src="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Vizag-Araku">
+          </div>
+          <div class="travel-content">
+            <h3 class="travel-title">🏝 Vizag-Araku (2022)</h3>
+            <p class="travel-excerpt">In 2022, I explored the beautiful coastal city of Visakhapatnam (Vizag) and the mesmerizing Araku Valley. The scenic train ride through the lush green valleys, the Borra Caves, and the coffee plantations made this trip unforgettable.</p>
+            <a href="vizag-araku.html" class="btn">Read More →</a>
+          </div>
+        </div>
+        
+        <div class="travel-card">
+          <div class="travel-image">
+            <img src="https://images.unsplash.com/photo-1588095210034-b5a596dd4d21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Kedarnath-Badrinath">
+          </div>
+          <div class="travel-content">
+            <h3 class="travel-title">🛕 Kedarnath-Badrinath (2023)</h3>
+            <p class="travel-excerpt">A spiritual and adventurous journey to the Kedarnath and Badrinath temples in 2023 was truly special. The breathtaking trek to Kedarnath, the divine atmosphere, and the snow-capped peaks made it a surreal experience.</p>
+            <a href="kedarnath-badrinath.html" class="btn">Read More →</a>
+          </div>
+        </div>
+        
+        <div class="travel-card">
+          <div class="travel-image">
+            <img src="https://images.unsplash.com/photo-1501554728187-ce583db33af7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Tungnath-Chandrashila">
+          </div>
+          <div class="travel-content">
+            <h3 class="travel-title">🏔 Tungnath-Chandrashila (2024)</h3>
+            <p class="travel-excerpt">In 2024, I hiked to Tungnath, the highest Shiva temple in the world, and further to Chandrashila Peak. The panoramic view of the Himalayas from the top was one of the most rewarding sights of my life.</p>
+            <a href="tungnath-chandrashila.html" class="btn">Read More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="travel.html">Travel</a>
+        <a href="awards.html">Awards</a>
+        <a href="random.html">Random</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/suryashis__?igsh=MTIybG44cTZhZmIxaA==" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/suryashis-ghosh-774971322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://x.com/suryashis33_?t=DFQi3drzQjrdi4UF_4beRA&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/share/18gVWW1637/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://github.com/gsuryashis" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <p class="footer-text">&copy; 2024 Suryashis Ghosh. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile Menu Toggle
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
