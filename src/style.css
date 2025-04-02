@@ -141,6 +141,10 @@ header {
   max-width: 100%;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
 }
 
 .hero-title {
